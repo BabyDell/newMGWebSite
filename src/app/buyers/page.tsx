@@ -88,8 +88,8 @@ export default function Buyers() {
                 questions that most buyers have.
               </h3>
             </div>
-            <div className="space-y-2 w-[500px] m-auto">
-              <div className="w-[500px] h-48">
+            <div className="space-y-2 w-full  m-auto">
+              <div className="w-full max-w-lg m-auto h-48">
                 <ZoomImage
                   src="/img/buyers/mgFinance.jpg"
                   alt="Buyers"
@@ -97,7 +97,7 @@ export default function Buyers() {
                   link="/financial-obligations"
                 />
               </div>
-              <div className="w-[500px] h-48">
+              <div className="w-full max-w-lg  m-auto  h-48">
                 <ZoomImage
                   src="/img/buyers/mgSuccess.jpg"
                   alt="Buyers"
@@ -105,7 +105,7 @@ export default function Buyers() {
                   link="/buyers"
                 />
               </div>
-              <div className="w-[500px] h-48">
+              <div className="w-full max-w-lg  m-auto  h-48">
                 <ZoomImage
                   src="/img/buyers/mgHandshake.jpg"
                   alt="Buyers"
@@ -113,7 +113,7 @@ export default function Buyers() {
                   link="/why-you-should-hire-a-real-estate-professional"
                 />
               </div>
-              <div className="w-[500px] h-48">
+              <div className="w-full max-w-lg  m-auto  h-48">
                 <ZoomImage
                   src="/img/buyers/mgHomeAfford.jpg"
                   alt="Buyers"
