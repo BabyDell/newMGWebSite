@@ -15,7 +15,7 @@ export default function ResponsiveLayout() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="w-full">
               <Image
-                src="/img/headshot.png"
+                src="/img/headshot.jpg"
                 alt="First section image"
                 width={600}
                 height={400}
@@ -69,7 +69,7 @@ export default function ResponsiveLayout() {
             </div>
             <div className="w-full md:order-2 order-1 hidden md:block">
               <Image
-                src="/img/headshot.png"
+                src="/img/headshot.jpg"
                 alt="Second section image"
                 width={600}
                 height={400}

@@ -91,7 +91,7 @@ export default function Buyers() {
             <div className="space-y-2 w-full  m-auto">
               <div className="w-full max-w-lg m-auto h-48">
                 <ZoomImage
-                  src="/img/buyers/mgFinance.jpg"
+                  src="/img/mgFinance.jpg"
                   alt="Buyers"
                   text="Financial Obligations"
                   link="/financial-obligations"
@@ -99,7 +99,7 @@ export default function Buyers() {
               </div>
               <div className="w-full max-w-lg  m-auto  h-48">
                 <ZoomImage
-                  src="/img/buyers/mgSuccess.jpg"
+                  src="/img/mgSuccess.jpg"
                   alt="Buyers"
                   text="A Road Map Of The Entire Process"
                   link="/buyers"
@@ -107,7 +107,7 @@ export default function Buyers() {
               </div>
               <div className="w-full max-w-lg  m-auto  h-48">
                 <ZoomImage
-                  src="/img/buyers/mgHandshake.jpg"
+                  src="/img/mgHandshake.jpg"
                   alt="Buyers"
                   text="Why You Should Hire A Real Estate Proffesional"
                   link="/why-you-should-hire-a-real-estate-professional"
@@ -115,7 +115,7 @@ export default function Buyers() {
               </div>
               <div className="w-full max-w-lg  m-auto  h-48">
                 <ZoomImage
-                  src="/img/buyers/mgHomeAfford.jpg"
+                  src="/img/mgHomeAfford.jpg"
                   alt="Buyers"
                   text="Home Affordability Calculator"
                   link="/home-affordability-calculator"
