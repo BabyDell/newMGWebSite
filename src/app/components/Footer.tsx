@@ -1,103 +1,44 @@
-import Link from "next/link";
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import Link from "next/link"
+import { Facebook, Mail, Phone } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="space-y-4">
-          <h3 className="text-2xl font-bold text-indigo-400 font-Playfair_Display">
-            Maria Gutierrez
-          </h3>
-          <p className="text-sm">Helping you find your dream home.</p>
-          <div className="flex space-x-4">
-            <Link href="#" className="hover:text-indigo-400 transition-colors">
-              <Facebook size={24} />
-              <span className="sr-only">Facebook</span>
-            </Link>
-            <Link href="#" className="hover:text-indigo-400 transition-colors">
-              <Instagram size={24} />
-              <span className="sr-only">Instagram</span>
-            </Link>
-            <Link href="#" className="hover:text-indigo-400 transition-colors">
-              <Twitter size={24} />
-              <span className="sr-only">Twitter</span>
-            </Link>
-            <Link href="#" className="hover:text-indigo-400 transition-colors">
-              <Linkedin size={24} />
-              <span className="sr-only">LinkedIn</span>
-            </Link>
+    <footer className="bg-gray-200 py-8 px-4 text-center">
+      <div className="container mx-auto">
+        <h2 className="text-2xl mb-4 font-Owswald tracking-wider font-bold text-slate-900">Maria Gutierrez</h2>
+        
+        <div className="flex justify-center items-center space-x-4 mb-4 font-Playfair_Display">
+          <div className="flex items-center ">
+            <Phone className="w-5 h-5 mr-2" />
+            <span className="">(123) 456-7890</span>
           </div>
+          <div className="flex items-center">
+            <Mail className="w-5 h-5 mr-2" />
+            <a href="mailto:info@yourcompany.com" className="hover:underline md:text-base text-xm hover:text-gray-600 transition-all">info@yourcompany.com</a>
+          </div>
+          <a href="https://facebook.com/yourcompany" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-blue-600 transition-colors">
+            <Facebook className="w-5 h-5" />
+            <span className="sr-only">Facebook</span>
+          </a>
         </div>
-        <div>
-          <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-          <ul className="space-y-2">
-            <li>
-              <Link
-                href="/"
-                className="hover:text-indigo-400 transition-colors"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about"
-                className="hover:text-indigo-400 transition-colors"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/listings"
-                className="hover:text-indigo-400 transition-colors"
-              >
-                Listings
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/sellers"
-                className="hover:text-indigo-400 transition-colors"
-              >
-                Sellers
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/buyers"
-                className="hover:text-indigo-400 transition-colors"
-              >
-                Buyers
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className="hover:text-indigo-400 transition-colors"
-              >
-                Contact
-              </Link>
-            </li>
+        
+        <nav className="mb-6 font-serif">
+          <ul className="flex flex-wrap justify-center space-x-4">
+            {["Home", "About", "Listings", "Sellers", "Buyers", "Contact"].map((item) => (
+              <li key={item}>
+                <Link href={`/${item.toLowerCase()}`} className="hover:underline text-gray-500 hover:text-black transition-colors">
+                  {item}
+                </Link>
+              </li>
+            ))}
           </ul>
-        </div>
-        <div>
-          <h4 className="text-lg font-semibold mb-4">Contact Information</h4>
-          <address className="not-italic">
-            <p>123 Real Estate Street</p>
-            <p>Atlanta, GA 30301</p>
-            <p className="mt-2">Phone: (760) 391-8941</p>
-            <p>Email: agent@realestate.com</p>
-          </address>
-        </div>
-      </div>
-      <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} Maria Gutiererz. All rights
-          reserved.
+        </nav>
+        
+        <p className="text-sm text-gray-600">
+          &copy; {new Date().getFullYear()} Maria Gutierrez. All rights reserved.
         </p>
       </div>
     </footer>
-  );
+  )
 }
+
