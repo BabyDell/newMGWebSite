@@ -36,7 +36,7 @@ export default function AboutSection() {
                 time and price.
               </p>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Maria's deep familiarity with the area ensures that her clients
+                Maria&apos;s deep familiarity with the area ensures that her clients
                 receive the most informed, strategic advice for their real
                 estate needs.
               </p>

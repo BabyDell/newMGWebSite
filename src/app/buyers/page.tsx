@@ -29,25 +29,25 @@ export default function Buyers() {
                 High Quality Buyer Services
               </h2>
               <blockquote className="text-xl italic font-semibold text-white border-l-4 border-indigo-400 pl-4">
-                "By providing top-notch, all-encompassing services, I can help
-                you save both time and money, while making the entire experience
-                more enjoyable and stress-free."
+                &quot;By providing top-notch, all-encompassing services, I can
+                help you save both time and money, while making the entire
+                experience more enjoyable and stress-free.&quot;
               </blockquote>
             </div>
             <div className="bg-white shadow-xl rounded-lg overflow-hidden">
               <div className="p-6 space-y-6 text-gray-700">
                 <p className="text-lg leading-relaxed font-serif">
-                  Whether you're searching for your first home, your dream
-                  property, or an investment opportunity, I'm dedicated to
+                  Whether you&apos;re searching for your first home, your dream
+                  property, or an investment opportunity, I&apos;m dedicated to
                   delivering exceptional buyer services. Purchasing a home is a
                   major financial commitment, and you deserve access to the
-                  latest market insights and expert advice—both of which I’m
+                  latest market insights and expert advice—both of which I&apos;m
                   here to offer.
                 </p>
                 <p className="text-lg leading-relaxed">
                   Buying a home is an exciting journey, but it can also be
-                  overwhelming, time-consuming, and costly if you're not
-                  familiar with the process or don't have the right information
+                  overwhelming, time-consuming, and costly if you&apos;re not
+                  familiar with the process or don&apos;t have the right information
                   and resources at your disposal.
                 </p>
                 <p className="text-lg leading-relaxed">
@@ -59,10 +59,10 @@ export default function Buyers() {
                 </p>
                 <p className="text-lg leading-relaxed">
                   For most people, buying a home is the largest financial
-                  investment they'll ever make. So whether you're purchasing
+                  investment they&apos;ll ever make. So whether you&apos;re purchasing
                   your first home, a forever home, or an investment property,
                   why not leverage my expertise as a local market professional
-                  to ensure you're making informed decisions every step of the
+                  to ensure you&apos;re making informed decisions every step of the
                   way?
                 </p>
               </div>

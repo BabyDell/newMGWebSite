@@ -20,7 +20,7 @@ export function PropertyCard({ property }: { property: Property }) {
           </button>
         </div>
         <div className="absolute bottom-2 left-2  px-2 py-1 rounded">
-          <span className="font-bold text-lg text-white text-shadow tracking-wider font-thin">
+          <span className=" text-lg text-white text-shadow tracking-wider font-thin">
             ${property.price.toLocaleString()}
           </span>
         </div>

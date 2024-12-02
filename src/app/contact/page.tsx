@@ -1,6 +1,5 @@
 import AnimatedHeader from "../components/AnimatedHeader";
 import { ContactForm } from "../components/ContactForm";
-import Footer from "../components/Footer";
 import { Phone, Mail, MapPin } from "lucide-react";
 import GoogleMap from "../components/GoogleMaps";
 

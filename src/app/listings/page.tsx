@@ -1,4 +1,3 @@
-import AgentInfo from "../components/AgentInfo";
 import AnimatedHeader from "../components/AnimatedHeader";
 import AgentListings from "../components/Listings";
 

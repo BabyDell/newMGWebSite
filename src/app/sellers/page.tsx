@@ -60,7 +60,7 @@ export default function Buyers() {
                   Delivering a comprehensive, high-quality listing service is my
                   top priority. When you&apos;re ready to sell, reach out to me,
                   and let&apos;s start the journey toward getting your home
-                  sold!"
+                  sold!
                 </p>
               </div>
             </div>

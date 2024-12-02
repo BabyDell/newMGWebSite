@@ -29,12 +29,12 @@ export default function ResponsiveLayout() {
               <p className="p-4 font-serif tracking-wide text-xl">
                 Maria Gutierrez has lived in the Coachella Valley for over 20
                 years and has taken an interest in the ever-growing real estate
-                industry. She went to the Valley's Community College to obtain
+                industry. She went to the Valley&apos;s Community College to obtain
                 an AA in Business Administration which goes hand in hand with
                 becoming a successful real estate agent. Having a background as
                 a tax preparer has allowed her to build trusting relationships
                 within the community which fuels her passion for helping those
-                in need. During Maria's off time, she enjoys gardening and
+                in need. During Maria&apos;s off time, she enjoys gardening and
                 taking long walks for self-care of her body, mind, and soul.
                 Being the persevering and motivated person that she is, she can
                 assure you that she is ready to take on the role of being your
@@ -51,13 +51,13 @@ export default function ResponsiveLayout() {
               <p className="mt-5 text-xl font-serif tracking-wide">
                 Maria attributes her success to her effective working
                 relationships with her clients. Her first priority is always
-                open, honest communication about her client’s particular needs
+                open, honest communication about her client&apos;s particular needs
                 and lifestyle. Finding the right property, or selling a home has
                 its rewards, but for Maria, a life-long relationship with a
                 client brings her genuine personal satisfaction.
               </p>
               <p className="mt-5 text-xl font-serif tracking-wide">
-                Above all, Maria is deeply committed to enhancing her clients'
+                Above all, Maria is deeply committed to enhancing her clients&apos;
                 lives by helping them find homes that bring joy and fulfillment.
                 She has a keen understanding of the value of real estate as an
                 investment, and her intuitive approach allows her to maximize
@@ -83,48 +83,3 @@ export default function ResponsiveLayout() {
   );
 }
 
-{
-  /* <article className="p-4 font-serif tracking-wider text-xl">
-              Maria Gutierrez has lived in the Coachella Valley for over 20
-              years and has taken an interest in the ever-growing real estate
-              industry. She went to the Valley's Community College to obtain an
-              AA in Business Administration which goes hand in hand with
-              becoming a successful real estate agent. Having a background as a
-              tax preparer has allowed her to build trusting relationships
-              within the community which fuels her passion for helping those in
-              need. During Maria's off time, she enjoys gardening and taking
-              long walks for self-care of her body, mind, and soul. Being the
-              persevering and motivated person that she is, she can assure you
-              that she is ready to take on the role of being your agent and
-              delivering exceptional real estate services in your home-buying or
-              selling journey.
-            </article>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="relative w-full mt-20 ">
-          <div className="flex flex-col-reverse lg:flex-row  w-full max-w-[1400px] relative z-10 mx-auto justify-center items-center">
-            <div className="lg:w-1/2 py-10 mx-10">
-              <header className="font-Playfair_Display text-3xl">
-                Working With Maria
-              </header>
-              <p className="mt-5 text-base font-serif tracking-wide">
-                Maria attributes her success to her effective working
-                relationships with her clients. Her first priority is always
-                open, honest communication about her client’s particular needs
-                and lifestyle. Finding the right property, or selling a home has
-                its rewards, but for Maria, a life-long relationship with a
-                client brings her genuine personal satisfaction.
-              </p>
-              <p className="mt-5 text-base font-serif tracking-wide">
-                Above all, Maria is deeply committed to enhancing her clients'
-                lives by helping them find homes that bring joy and fulfillment.
-                She has a keen understanding of the value of real estate as an
-                investment, and her intuitive approach allows her to maximize
-                returns for her clients. When listing a home, Maria carefully
-                assesses market conditions and advises her clients to be
-                strategic and patient in order to achieve the best possible
-                results.
-              </p> */
-}
