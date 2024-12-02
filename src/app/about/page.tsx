@@ -15,12 +15,13 @@ export default function ResponsiveLayout() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="w-full">
               <Image
-                src="/img/headshot.jpg"
+                src="/img/mgHeadShot.jpg"
                 alt="First section image"
                 width={600}
                 height={400}
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg object-cover"
               />
+          
             </div>
             <div className="space-y-4">
               <h2 className="text-2xl font-bold text-gray-900 p-4 font-Playfair_Display">
@@ -69,7 +70,7 @@ export default function ResponsiveLayout() {
             </div>
             <div className="w-full md:order-2 order-1 hidden md:block">
               <Image
-                src="/img/headshot.jpg"
+                src="/img/mgHeadShot.jpg"
                 alt="Second section image"
                 width={600}
                 height={400}
