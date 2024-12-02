@@ -16,7 +16,6 @@ export async function GET() {
     }
 
     const data = await response.json()
-    console.log('Fetched data:', data.D.Results)
     // Assuming the API returns the agent's full name in a field called 'Name'
     const fullName = data.D.Results[0].Name
     const firstName = fullName.split(' ')[0]

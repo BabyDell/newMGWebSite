@@ -1,4 +1,4 @@
-import { ChevronsRight } from 'lucide-react';
+import { ChevronsRight } from "lucide-react";
 import AnimatedHeader from "../components/AnimatedHeader";
 import Link from "next/link";
 import HomeAffordabilityCalculator from "../components/HomeAffordabilityCalculator";
@@ -25,11 +25,19 @@ export default function HomeAffordabilityCalculatorPage() {
           </div>
           <div className="pt-5 space-y-6 text-gray-300">
             <p className="text-xl leading-relaxed font-serif">
-              Use our Home Affordability Calculator to estimate your monthly mortgage payment based on the purchase price, down payment, mortgage term, taxes, and interest rate. This tool will help you understand how much home you can afford and plan your budget accordingly.
+              Use our Home Affordability Calculator to estimate your monthly
+              mortgage payment based on the purchase price, down payment,
+              mortgage term, taxes, and interest rate. This tool will help you
+              understand how much home you can afford and plan your budget
+              accordingly.
             </p>
             <HomeAffordabilityCalculator />
             <p className="text-xl leading-relaxed font-serif mt-8">
-              Remember, this calculator provides an estimate and doesn't include other potential costs such as insurance, HOA fees, or maintenance. For a more accurate assessment of your home buying power, consider getting pre-approved for a mortgage or speaking with a financial advisor.
+              Remember, this calculator provides an estimate and doesn&apos;t include
+              other potential costs such as insurance, HOA fees, or maintenance.
+              For a more accurate assessment of your home buying power, consider
+              getting pre-approved for a mortgage or speaking with a financial
+              advisor.
             </p>
           </div>
         </div>
@@ -37,4 +45,3 @@ export default function HomeAffordabilityCalculatorPage() {
     </div>
   );
 }
-

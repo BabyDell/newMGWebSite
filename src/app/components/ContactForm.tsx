@@ -20,7 +20,7 @@ export function ContactForm() {
     setIsSubmitting(false)
     toast({
       title: "Message sent!",
-      description: "We'll get back to you as soon as possible.",
+      description: "We&apos;ll get back to you as soon as possible.",
     })
   }
 

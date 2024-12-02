@@ -1,4 +1,25 @@
-export default function ListingCard({ listing }) {
+interface StandardFields {
+  ListPrice: number;
+  BedsTotal: number;
+  BathsTotal: number;
+  PublicRemarks: string;
+}
+
+interface PrimaryPhoto {
+  Uri300: string;
+}
+
+interface Listing {
+  Id: string;
+  StandardFields: StandardFields;
+  PrimaryPhoto?: PrimaryPhoto;
+}
+
+interface ListingCardProps {
+  listing: Listing;
+}
+
+export default function ListingCard({ listing }: ListingCardProps) {
     return (
       <div className="border rounded-lg overflow-hidden shadow-lg">
         {listing.PrimaryPhoto && (

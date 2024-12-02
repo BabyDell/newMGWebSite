@@ -17,7 +17,7 @@ export default function Home() {
         transition={{ duration: 1 }}
       >
         <Image
-          src="/img/mgHome.jpg"
+          src="/img/mgHome3.jpg"
           alt="hero"
           layout="fill"
           objectFit="cover"

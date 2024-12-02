@@ -29,9 +29,9 @@ export default function Buyers() {
                 Complete Listings Services
               </h2>
               <blockquote className="text-xl italic font-semibold text-white border-l-4 border-indigo-400 pl-4">
-                "Regardless of your reasons for selling, my proven marketing
-                strategies will guarantee that you receive the highest possible
-                price for your home."
+                &quot;Regardless of your reasons for selling, my proven
+                marketing strategies will guarantee that you receive the highest
+                possible price for your home.&quot;
               </blockquote>
             </div>
             <div className="bg-white shadow-xl rounded-lg overflow-hidden">
@@ -45,9 +45,10 @@ export default function Buyers() {
                   informed throughout the entire process. For most families,
                   their home is their largest financial asset, and selling it is
                   a significant decision that requires careful planning and
-                  effort. That’s why it’s crucial to work with an experienced
-                  real estate professional who can manage the details and ensure
-                  a successful sale for the best possible price.
+                  effort. That&apos;s why it&apos;s crucial to work with an
+                  experienced real estate professional who can manage the
+                  details and ensure a successful sale for the best possible
+                  price.
                 </p>
                 <p className="text-lg leading-relaxed font-serif">
                   With years of experience helping Atlanta homeowners sell their
@@ -57,8 +58,9 @@ export default function Buyers() {
                 </p>
                 <p className="text-lg leading-relaxed font-serif">
                   Delivering a comprehensive, high-quality listing service is my
-                  top priority. When you’re ready to sell, reach out to me, and
-                  let’s start the journey toward getting your home sold!"
+                  top priority. When you&apos;re ready to sell, reach out to me,
+                  and let&apos;s start the journey toward getting your home
+                  sold!"
                 </p>
               </div>
             </div>
@@ -85,22 +87,23 @@ export default function Buyers() {
             <div className="p-6 space-y-6 text-gray-300">
               <p className="text-xl leading-relaxed font-serif">
                 I recognize that selling your home is a significant life
-                decision, and in today’s dynamic market, it requires a
-                comprehensive and strategic approach. That’s why I am committed
-                to managing the entire process on your behalf, providing you
-                with a seamless and stress-free experience. My advanced
-                marketing strategies are designed to maximize exposure and
-                ensure that your home sells for the highest possible price in
-                the shortest time frame.
+                decision, and in today&apos;s dynamic market, it requires a
+                comprehensive and strategic approach. That&apos;s why I am
+                committed to managing the entire process on your behalf,
+                providing you with a seamless and stress-free experience. My
+                advanced marketing strategies are designed to maximize exposure
+                and ensure that your home sells for the highest possible price
+                in the shortest time frame.
               </p>
               <p className="text-xl leading-relaxed font-serif">
-                To assist you in understanding your property’s potential value,
-                I offer an automated home valuation tool that uses a combination
-                of proprietary data, public sales records, and current market
-                trends. You can access this tool by clicking the link below.
-                However, for a more precise evaluation of your home’s worth and
-                to discuss a tailored marketing strategy, I would be happy to
-                schedule a personalized consultation at your convenience.
+                To assist you in understanding your property&apos;s potential
+                value, I offer an automated home valuation tool that uses a
+                combination of proprietary data, public sales records, and
+                current market trends. You can access this tool by clicking the
+                link below. However, for a more precise evaluation of your
+                home&apos;s worth and to discuss a tailored marketing strategy,
+                I would be happy to schedule a personalized consultation at your
+                convenience.
               </p>
             </div>
             <div className="space-y-2 w-[500px] m-auto">

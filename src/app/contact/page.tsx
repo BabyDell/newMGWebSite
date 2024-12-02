@@ -22,7 +22,7 @@ export default function ContactPage() {
                   Contact Information
                 </h2>
                 <p className="text-lg text-gray-600 mb-8">
-                  We're here to help you with all your real estate needs. Feel
+                  We&apos;re here to help you with all your real estate needs. Feel
                   free to reach out to us anytime.
                 </p>
                 <div className="space-y-4">

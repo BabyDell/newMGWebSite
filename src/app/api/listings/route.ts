@@ -4,9 +4,9 @@ import { URLSearchParams } from "url"
 export async function GET() {
   const apiUrl = 'https://sparkapi.com/v1/listings'
   const queryParams = new URLSearchParams({
-    _filter: `ListAgentId Eq '${process.env.AGENT_ID}'`,
-    _limit: '10',
-    _expand: 'PrimaryPhoto'
+    // _filter: `ListAgentId Eq '${process.env.AGENT_ID}'`,
+    // _limit: '10',
+    // _expand: 'PrimaryPhoto'
   })
 
   try {
@@ -22,7 +22,6 @@ export async function GET() {
     }
 
     const data = await response.json()
-    console.log('Fetched data:', data.D);
 
     return NextResponse.json({
       listings: data.D.Results
