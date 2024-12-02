@@ -1,21 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Syncopate:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.text-shadowxl {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+}
+
+.icon-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
 }
