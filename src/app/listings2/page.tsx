@@ -1,8 +1,8 @@
 'use client'
 
 import { useState } from 'react';
-import AnimatedHeader from "../components/AnimatedHeader";
-import { PropertyList } from "../components/PropertyList";
+import AnimatedHeader from "@/components/AnimatedHeader";
+import { PropertyList } from "@/components/PropertyList";
 import { Property } from "../types/property";
 import { Button } from "@/components/ui/button";
 import {

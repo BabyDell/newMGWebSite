@@ -1,5 +1,5 @@
 import { ChevronsRight } from "lucide-react";
-import AnimatedHeader from "../components/AnimatedHeader";
+import AnimatedHeader from "@/components/AnimatedHeader";
 import Link from "next/link";
 
 export default function FinancialObligations() {

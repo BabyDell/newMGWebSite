@@ -20,29 +20,29 @@ export default function AboutSection() {
     <motion.section
         ref={ref}
         style={{ opacity, scale, y }}
-        className="w-full bg-gradient-to-b from-amber-50 to-white py-20 lg:py-32 overflow-hidden"
+        className="w-full bg-gradient-to-b from-stone-700 to-black py-20 lg:py-32 overflow-hidden"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="w-full lg:w-1/2 space-y-8">
-              <h2 className="text-4xl lg:text-5xl text-gray-800 font-Playfair_Display tracking-wider font-semibold">
+              <h2 className="text-4xl lg:text-5xl text-slate-100 font-Playfair_Display tracking-wider font-semibold">
                   Maria Gutierrez
               </h2>
-              <p className="text-gray-600 text-lg leading-relaxed">
+              <p className="text-white text-lg leading-relaxed">
                 With over 30 years of experience in the Coachella Valley, Maria
                 has a keen understanding of the local market, trends, and
                 neighborhoods. Her expertise allows her to expertly guide
                 clients in finding their perfect home or selling at the optimal
                 time and price.
               </p>
-              <p className="text-gray-600 text-lg leading-relaxed">
+              <p className="text-white text-lg leading-relaxed">
                 Maria&apos;s deep familiarity with the area ensures that her clients
                 receive the most informed, strategic advice for their real
                 estate needs.
               </p>
               <Link
                 href="/about"
-                className="inline-flex items-center text-indigo-600 font-semibold group"
+                className="inline-flex items-center text-indigo-400 font-semibold group"
               >
                 Learn more about Maria
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />

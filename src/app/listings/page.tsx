@@ -1,5 +1,5 @@
-import AnimatedHeader from "../components/AnimatedHeader";
-import AgentListings from "../components/Listings";
+import AnimatedHeader from "@/components/AnimatedHeader";
+import AgentListings from "@/components/Listings";
 
 
 export default async function Home() {

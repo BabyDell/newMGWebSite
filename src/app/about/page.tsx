@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AnimatedHeader from "../components/AnimatedHeader";
+import AnimatedHeader from "@/components/AnimatedHeader";
 
 export default function ResponsiveLayout() {
   return (

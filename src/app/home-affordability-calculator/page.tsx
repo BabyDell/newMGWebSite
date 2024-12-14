@@ -1,7 +1,7 @@
 import { ChevronsRight } from "lucide-react";
-import AnimatedHeader from "../components/AnimatedHeader";
+import AnimatedHeader from "@/components/AnimatedHeader";
 import Link from "next/link";
-import HomeAffordabilityCalculator from "../components/HomeAffordabilityCalculator";
+import HomeAffordabilityCalculator from "@/components/HomeAffordabilityCalculator";
 
 export default function HomeAffordabilityCalculatorPage() {
   return (

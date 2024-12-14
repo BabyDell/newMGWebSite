@@ -1,6 +1,6 @@
 import Image from "next/image";
-import AnimatedHeader from "../components/AnimatedHeader";
-import { ZoomImage } from "../components/ZoomImage";
+import AnimatedHeader from "@/components/AnimatedHeader";
+import { ZoomImage } from "@/components/ZoomImage";
 
 export default function Buyers() {
   return (
@@ -74,12 +74,11 @@ export default function Buyers() {
             <Image
               src="/img/mgCoffee.jpg"
               alt="Buyers"
-              width={1000}
-              height={1000}
-              className="w-full h-96 relative object-cover"
+              fill
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-black bg-opacity-75" />
-            <div className="absolute inset-0 flex items-center justify-center text-white text-5xl tracking-wider font-Playfair_Display ">
+            <div className="absolute inset-0 flex items-center justify-center text-white text-3xl md:text-5xl tracking-wider font-Playfair_Display ">
               Home Valuation
             </div>
           </div>

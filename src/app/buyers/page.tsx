@@ -1,6 +1,6 @@
 import Image from "next/image";
-import AnimatedHeader from "../components/AnimatedHeader";
-import { ZoomImage } from "../components/ZoomImage";
+import AnimatedHeader from "@/components/AnimatedHeader";
+import { ZoomImage } from "@/components/ZoomImage";
 
 export default function Buyers() {
   return (
@@ -72,10 +72,10 @@ export default function Buyers() {
       </section>
 
       <section className="bg-black w-full py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl w-full mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start ">
-            <div className="space-y-2 mx-auto text-center lg:text-start">
-              <h1 className="text-2xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-4xl ">
+            <div className="space-y-2 mx-auto text-center lg:text-start w-[30rem] max-w-full">
+              <h1 className="text-2xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-4xl">
                 Would You Like To
               </h1>
               <h2 className="text-5xl font-bold text-indigo-400 font-Playfair_Display tracking-wider pb-5">
@@ -83,7 +83,7 @@ export default function Buyers() {
                 About The <span className="block" />
                 Process?
               </h2>
-              <h3 className="text-3xl italic font-semibold text-white tracking-wide font-serif w-[30rem]">
+              <h3 className="text-3xl italic font-semibold text-white tracking-wide font-serif m-auto">
                 This detailed home buying guide will address a few of the key
                 questions that most buyers have.
               </h3>

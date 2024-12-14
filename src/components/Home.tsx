@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <motion.div 
-        className="h-dvh relative"
+        className="h-dvh w-full relative"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -19,8 +19,8 @@ export default function Home() {
         <Image
           src="/img/mgHome3.jpg"
           alt="hero"
-          layout="fill"
-          objectFit="cover"
+          fill  
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-black opacity-25" />
         <div className="absolute inset-0 flex flex-col items-center justify-center">
@@ -38,7 +38,7 @@ export default function Home() {
             transition={{ delay: 1, duration: 0.8 }}
           >
             <Link
-              href="/homes"
+              href="/listings"
               className="relative flex items-center justify-center text-white text-xl font-bold bg-gray-800 py-3 px-8 rounded-sm mt-10 shadow-lg transform transition-all duration-500 hover:shadow-xl group"
             >
               <span className="relative z-10 flex items-center justify-center">

@@ -1,7 +1,7 @@
-import AnimatedHeader from "../components/AnimatedHeader";
-import { ContactForm } from "../components/ContactForm";
+import AnimatedHeader from "@/components/AnimatedHeader";
+import { ContactForm } from "@/components/ContactForm";
 import { Phone, Mail, MapPin } from "lucide-react";
-import GoogleMap from "../components/GoogleMaps";
+import GoogleMap from "@/components/GoogleMaps";
 
 export default function ContactPage() {
 

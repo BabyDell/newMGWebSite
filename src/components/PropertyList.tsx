@@ -1,4 +1,4 @@
-import { Property } from '../types/property';
+import { Property } from '@/app/types/property';
 import { PropertyCard } from './PropertyCard';
 
 export function PropertyList({ properties }: { properties: Property[] }) {

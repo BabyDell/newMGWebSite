@@ -1,5 +1,5 @@
 import { ChevronsRight } from "lucide-react";
-import AnimatedHeader from "../components/AnimatedHeader";
+import AnimatedHeader from "@/components/AnimatedHeader";
 import Link from "next/link";
 
 export default function FinancialObligations() {
@@ -11,7 +11,7 @@ export default function FinancialObligations() {
         headerText="Financial Obligations"
       />
       <section className="bg-black px-10 pt-5 pb-10">
-        <div className="w-[1000px] m-auto">
+        <div className="w-[1000px] max-w-full m-auto">
           <div className="font-Montserrat flex">
             <Link
               className="text-stone-300 hover:text-white transition-colors"
