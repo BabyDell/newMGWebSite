@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Property } from "../types/property";
+import { Property } from "@/app/types/property";
 
 export function PropertyCard({ property }: { property: Property }) {
   return (
