@@ -4,7 +4,7 @@ import { ZoomImage } from "./ZoomImage";
 export default function BuyersSection() {
   return (
     <motion.section 
-      className="my-16"
+      className="my-16 text-slate-200"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
@@ -40,8 +40,8 @@ export default function BuyersSection() {
           EXCELLENCE.{" "}
         </motion.span>
       </motion.header>
-      <motion.h1 
-        className="text-center py-10 mx-10 md:mx-36 font-serif"
+      <div className="max-w-6xl w-full mx-auto">      <motion.h1 
+        className="text-center py-10 mx-10 font-serif "
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.1, duration: 0.8 }}
@@ -53,6 +53,8 @@ export default function BuyersSection() {
         County areas, I also work with buyers and sellers in nearby communities,
         offering personalized service for every step of the home-buying journey.
       </motion.h1>
+      </div>
+
       <motion.div 
         className="mx-10"
         initial={{ opacity: 0 }}

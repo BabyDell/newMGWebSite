@@ -20,22 +20,22 @@ export default function AboutSection() {
     <motion.section
         ref={ref}
         style={{ opacity, scale, y }}
-        className="w-full bg-gradient-to-b from-stone-700 to-black py-20 lg:py-32 overflow-hidden"
+        className="w-full bg-gradient-to-b from-stone-900 to-black py-20 lg:py-32 overflow-hidden"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="w-full lg:w-1/2 space-y-8">
               <h2 className="text-4xl lg:text-5xl text-slate-100 font-Playfair_Display tracking-wider font-semibold">
                   Maria Gutierrez
               </h2>
-              <p className="text-white text-lg leading-relaxed">
-                With over 30 years of experience in the Coachella Valley, Maria
+              <p className="text-slate-200 text-lg leading-relaxed">
+                With over 20 years of experience in the Coachella Valley, Maria
                 has a keen understanding of the local market, trends, and
                 neighborhoods. Her expertise allows her to expertly guide
                 clients in finding their perfect home or selling at the optimal
                 time and price.
               </p>
-              <p className="text-white text-lg leading-relaxed">
+              <p className="text-slate-200 text-lg leading-relaxed">
                 Maria&apos;s deep familiarity with the area ensures that her clients
                 receive the most informed, strategic advice for their real
                 estate needs.
@@ -58,7 +58,7 @@ export default function AboutSection() {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-indigo-600 text-white p-6 rounded-lg shadow-lg">
-                <p className="text-2xl font-semibold">30+ Years</p>
+                <p className="text-2xl font-semibold">20+ Years</p>
                 <p className="text-sm">of Local Expertise</p>
               </div>
             </div>
