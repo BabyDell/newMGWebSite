@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Slider } from "@/components/ui/slider";
 import {
   Select,
@@ -19,17 +19,7 @@ export default function HomeAffordabilityCalculator() {
   const [interestRate, setInterestRate] = useState(3.5);
   const [monthlyPayment, setMonthlyPayment] = useState(0);
 
-  useEffect(() => {
-    calculateMonthlyPayment();
-  }, [
-    purchasePrice,
-    mortgageTerm,
-    downPaymentPercent,
-    annualTaxesPercent,
-    interestRate,
-  ]);
-
-  const calculateMonthlyPayment = () => {
+  const calculateMonthlyPayment = useCallback(() => {
     if (purchasePrice === "") {
       setMonthlyPayment(0);
       return;
@@ -49,7 +39,11 @@ export default function HomeAffordabilityCalculator() {
 
     const totalMonthlyPayment = monthlyMortgagePayment + monthlyTaxes;
     setMonthlyPayment(Math.round(totalMonthlyPayment));
-  };
+  }, [purchasePrice, downPaymentPercent, interestRate, mortgageTerm, annualTaxesPercent]);
+
+  useEffect(() => {
+    calculateMonthlyPayment();
+  }, [calculateMonthlyPayment]);
 
   const roundToNearest = (value: number, nearest: number) => {
     return Math.round(value / nearest) * nearest;
@@ -167,3 +161,4 @@ export default function HomeAffordabilityCalculator() {
     </div>
   );
 }
+

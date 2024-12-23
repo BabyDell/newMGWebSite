@@ -28,26 +28,26 @@ export function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-4">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="name" className="block text-sm font-medium text-gray-300">
             Name
           </label>
           <Input id="name" name="name" required className="mt-1" />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="block text-sm font-medium text-gray-300">
             Email
           </label>
           <Input id="email" name="email" type="email" required className="mt-1" />
         </div>
       </div>
       <div>
-        <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+        <label htmlFor="phone" className="block text-sm font-medium text-gray-300">
           Phone
         </label>
         <Input id="phone" name="phone" type="tel" className="mt-1" />
       </div>
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+        <label htmlFor="message" className="block text-sm font-medium text-gray-300">
           Message
         </label>
         <Textarea id="message" name="message" required className="mt-1" rows={4} />

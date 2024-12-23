@@ -24,10 +24,10 @@ export default function ResponsiveLayout() {
           
             </div>
             <div className="space-y-4">
-              <h2 className="text-2xl font-bold text-gray-900 p-4 font-Playfair_Display">
+              <h2 className="text-2xl font-bold text-white p-4 font-Playfair_Display">
                 Coachella Valley and <span className="block"/>Greater Palm Springs 
               </h2>
-              <p className="p-4 font-serif tracking-wide text-xl">
+              <p className="p-4 font-serif tracking-wide text-xl text-slate-200">
                 Maria Gutierrez has lived in the Coachella Valley for over 20
                 years and has taken an interest in the ever-growing real estate
                 industry. She went to the Valley&apos;s Community College to obtain
@@ -47,7 +47,7 @@ export default function ResponsiveLayout() {
 
           {/* Second section: Text-Image */}
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-4 md:order-1 order-2">
+            <div className="space-y-4 md:order-1 order-2 text-slate-200">
              
               <p className="mt-5 text-xl font-serif tracking-wide">
                 Maria attributes her success to her effective working
