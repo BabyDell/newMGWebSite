@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <motion.div 
-        className="h-dvh w-full relative"
+        className="h-screen w-full relative"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
