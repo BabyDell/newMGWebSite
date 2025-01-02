@@ -13,7 +13,7 @@ export default function ContactPage() {
         headerText="Get in Touch"
       />
       <main className="flex-grow">
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-950 to-black">
+        <section className="py-16 px-4 sm:px-6 lg:px-8 ">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-white">
               <div>
@@ -54,7 +54,7 @@ export default function ContactPage() {
             </div>
           </div>
         </section>
-        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-black">
+        <section className="py-16 px-4 sm:px-6 lg:px-8 ">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-white font-Playfair_Display mb-6">
               Where I specialize
